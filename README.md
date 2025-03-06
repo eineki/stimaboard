@@ -7,8 +7,15 @@ github repository based on Hackaday article: https://hackaday.com/2017/05/18/kic
 
 ## Directory structure
 
- - ./pcb        Kicad files
- - ./mechanical 3d printing related files
+ - __./pcb__        Kicad files
+ - __./mechanical__ 3d printing related files
+
+ - __./pcb/pcb_render__ Board 3d renderings
+ - __./pcb_3d_models__  Kicad 3d models needed for rendering
+ - __./pcb/images__  Images for Silk screen
+ - __./pcb/lib_fp__   Local Footprints libraries
+ - __./pcb/lib_sch__  Local Symbols libraries
+
 
 ## Related project
 
