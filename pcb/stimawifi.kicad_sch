@@ -12,7 +12,232 @@
 		(comment 1 "Compact carrier board with IIC bus, and other service connectors")
 	)
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x05"
+		(symbol "Stima:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Stima:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Stima:Screw_Terminal_01x05"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -361,232 +586,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RF_Module:WEMOS_D1_mini"
+		(symbol "Stima:WEMOS_D1_mini"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2141,7 +2141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Stima:MountingHole")
 		(at 179.07 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2168,7 +2168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "Stima.Library:MountingHole_3.2mm_M3"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -2205,7 +2205,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
+		(lib_id "Stima:Screw_Terminal_01x05")
 		(at 140.97 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2215,7 +2215,7 @@
 		(fields_autoplaced yes)
 		(uuid "03201fc8-ed3e-493b-b7a0-5c96c9b84021")
 		(property "Reference" "J5"
-			(at 143.51 77.4699 0)
+			(at 143.51 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,15 +2224,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x05"
-			(at 147.32 77.47 90)
+			(at 143.51 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+		(property "Footprint" "Stima.Library:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 140.97 77.47 0)
 			(effects
 				(font
@@ -2284,7 +2284,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Stima:MountingHole")
 		(at 179.07 127 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2311,7 +2311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "Stima.Library:MountingHole_3.2mm_M3"
 			(at 179.07 127 0)
 			(effects
 				(font
@@ -2348,7 +2348,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
+		(lib_id "Stima:Screw_Terminal_01x05")
 		(at 140.97 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2358,7 +2358,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b71de5f-e53c-45dc-bfab-7e6fe217a6d6")
 		(property "Reference" "J4"
-			(at 143.51 143.5099 0)
+			(at 143.51 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,15 +2367,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x05"
-			(at 147.32 143.51 90)
+			(at 143.51 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+		(property "Footprint" "Stima.Library:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 140.97 143.51 0)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
+		(lib_id "Stima:Screw_Terminal_01x05")
 		(at 140.97 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2504,7 +2504,7 @@
 		(fields_autoplaced yes)
 		(uuid "38406dd1-9952-4383-8fa0-83b5138d2b66")
 		(property "Reference" "J3"
-			(at 143.51 128.2699 0)
+			(at 143.51 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,15 +2513,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x05"
-			(at 147.32 128.27 90)
+			(at 143.51 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+		(property "Footprint" "Stima.Library:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 140.97 128.27 0)
 			(effects
 				(font
@@ -2573,7 +2573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
+		(lib_id "Stima:Screw_Terminal_01x05")
 		(at 140.97 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2583,7 +2583,7 @@
 		(fields_autoplaced yes)
 		(uuid "4290f109-52aa-462e-91be-042ab1a93e35")
 		(property "Reference" "J2"
-			(at 143.51 113.0299 0)
+			(at 143.51 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,15 +2592,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x05"
-			(at 147.32 113.03 90)
+			(at 143.51 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+		(property "Footprint" "Stima.Library:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 140.97 113.03 0)
 			(effects
 				(font
@@ -2652,7 +2652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:WEMOS_D1_mini")
+		(lib_id "Stima:WEMOS_D1_mini")
 		(at 78.74 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2662,7 +2662,7 @@
 		(fields_autoplaced yes)
 		(uuid "75ba341f-5ff3-4b46-ad24-2d8e54b23305")
 		(property "Reference" "U1"
-			(at 80.9341 140.97 0)
+			(at 80.8833 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2671,7 @@
 			)
 		)
 		(property "Value" "WEMOS_D1_mini"
-			(at 80.9341 143.51 0)
+			(at 80.8833 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:WEMOS_D1_mini_light"
+		(property "Footprint" "Stima.Library:WEMOS_D1_mini_light"
 			(at 78.74 149.86 0)
 			(effects
 				(font
@@ -2831,7 +2831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Stima:Conn_01x02")
 		(at 55.88 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2840,7 +2840,7 @@
 		(dnp no)
 		(uuid "85159767-e55b-46f4-9b50-b920bfda50e0")
 		(property "Reference" "J8"
-			(at 61.214 102.87 0)
+			(at 53.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,15 +2848,14 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 62.23 102.87 0)
+			(at 60.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Stima.Library:PinHeader_1x02_P2.54mm_Vertical"
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -2899,7 +2898,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Stima:MountingHole")
 		(at 179.07 142.24 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2926,7 +2925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "Stima.Library:MountingHole_3.2mm_M3"
 			(at 179.07 142.24 0)
 			(effects
 				(font
@@ -2963,7 +2962,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
+		(lib_id "Stima:Screw_Terminal_01x05")
 		(at 140.97 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2973,7 +2972,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf286015-f2dc-4308-bc5a-603f0108d223")
 		(property "Reference" "J1"
-			(at 143.51 97.7899 0)
+			(at 143.51 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,15 +2981,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x05"
-			(at 147.32 97.79 90)
+			(at 143.51 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
+		(property "Footprint" "Stima.Library:TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal"
 			(at 140.97 97.79 0)
 			(effects
 				(font
@@ -3042,7 +3041,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Stima:MountingHole")
 		(at 179.07 137.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3069,7 +3068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "Stima.Library:MountingHole_3.2mm_M3"
 			(at 179.07 137.16 0)
 			(effects
 				(font
